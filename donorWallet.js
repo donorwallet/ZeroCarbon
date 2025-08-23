@@ -7,10 +7,12 @@ const IMG_NEEDS_1 = './Needs_1.jpg';
 const IMG_NEEDS_2 = './Needs_2.jpg';
 const IMG_NEEDS_3 = './Needs_3.jpg';
 const IMG_NEEDS_4 = './Needs_4.jpg';
+const IMG_NEEDS_Z = './Needs_Z.jpg';
 const IMG_LIVES_1 = './Lives_1.jpg';
 const IMG_LIVES_2 = './Lives_2.jpg';
 const IMG_LIVES_3 = './Lives_3.jpg';
 const IMG_LIVES_4 = './Lives_4.jpg';
+const IMG_LIVES_Z = './Lives_Z.jpg';
 const IMG_TECH_1 = './Tech_1.jpg';
 const IMG_TECH_2 = './Tech_2.jpg';
 const IMG_TECH_3 = './Tech_3.jpg';
@@ -20,6 +22,7 @@ const IMG_TECH_4 = './Tech_4.jpg';
 const CONTRACT_URL = 'https://quantumbesu.web.app/quantumbesu.html?contract=0x229aCcf70c4B4403670a5d0643e5A67Fd38c014d';
 const GUEST_ACCOUNT_URL = 'https://quantumbesu.web.app/quantumbesu.html?account=0x965c5086e097301652E41fC7305282e250aD0c04';
 const MEMBER_ACCOUNT_URL = 'https://quantumbesu.web.app/quantumbesu.html?account=0x9b8d908db07E97D812319ADD4e32D82Cff6FDe04';
+const ENTER_Z_URL = 'https://donorwallet.github.io/PawOasis';
 
 // Global State Management
 let currentLanguage = 'zh'; // Default to Chinese
@@ -81,7 +84,7 @@ const animalDetails = {
     },
     TERRIER: {
         en: { name: 'Promoting ESG', description: 'Support Environmental, Social, and Governance (ESG) projects, promote corporate adoption of sustainable practices, enhance social responsibility and environmental protection awareness' },
-        zh: { name: '促進ESG', description: '支持環境、社會及管治（ESG）項目，推動企業採用可持續實踐，提升社會責任及環境保護意識' }
+        zh: { name: '促進ESG', description: '支持環境、社會及管治(ESG)項目，推動企業採用可持續實踐，提升社會責任及環境保護意識' }
     }
 };
 
@@ -652,10 +655,12 @@ function initializeCardImages() {
         IMG_NEEDS_2,
         IMG_NEEDS_3,
         IMG_NEEDS_4,
+        IMG_NEEDS_Z,
         IMG_LIVES_1,
         IMG_LIVES_2,
         IMG_LIVES_3,
         IMG_LIVES_4,
+        IMG_LIVES_Z,
         IMG_TECH_1,
         IMG_TECH_2,
         IMG_TECH_3,
