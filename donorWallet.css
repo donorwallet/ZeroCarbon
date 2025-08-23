@@ -295,7 +295,7 @@ body {
 /* Matching Page Styles */
 #matching-page {
     padding-top: 80px;
-    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #2c1810 100%);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 50%, #1B5E20 100%);
 }
 
 /* Zero Carbon Section Styles */
@@ -499,7 +499,7 @@ body {
     background: linear-gradient(45deg, #2E7D32, #1B5E20);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: #ffffff;
-    border: 2px solid #dee2e6;
+    border: 2px solid #A5D6A7;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -547,13 +547,13 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 8px;
-    color: #ffd700;
+    color: #4CAF50;
 }
 
 /* Donation Page Styles */
 #donation-page {
     padding-top: 80px;
-    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #2c1810 100%);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 50%, #1B5E20 100%);
 }
 
 .thank-you-box, .donation-complete-box {
@@ -632,7 +632,7 @@ body {
 /* About Page Styles */
 #about-page {
     padding-top: 80px;
-    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #2c1810 100%);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 50%, #1B5E20 100%);
 }
 
 .donation-summary-section, .about-us-section {
@@ -1013,7 +1013,7 @@ body {
 .cancel-btn{
     background: #f8f9fa;
     color: #666;
-    border: 2px solid #dee2e6;
+    border: 2px solid #A5D6A7;
 }
 
 .cancel-btn:hover {
