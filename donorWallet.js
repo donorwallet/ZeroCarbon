@@ -64,8 +64,8 @@ const careItemDetails = {
         zh: { name: '零碳排放生物轉化', price: 300, unit: '459kgCO₂e /日', description: '將廚餘轉化成高價值嘅蛋白質粉，用於動物飼料或其他用途' }
     },
     ADOPTION: {
-        en: { name: 'High Protein Dog Food to Reduce Meat', price: 1000, unit: '545kgCO₂e /120Kg Hi-Protein', description: 'Use high-protein feed to replace traditional meat, meet pet nutritional needs while reducing dependence on meat resources' },
-        zh: { name: '高蛋白狗量減肉食', price: 500, unit: '545kgCO₂e /120Kg 高蛋白', description: '用高蛋白飼料代替傳統肉食，滿足寵物營養需求，同時減少對肉類資源嘅依賴' }
+        en: { name: 'High Protein Dog Food to Reduce Meat', price: 1000, unit: '545kgCO₂e /60Kg Hi-Protein', description: 'Use high-protein feed to replace traditional meat, meet pet nutritional needs while reducing dependence on meat resources' },
+        zh: { name: '高蛋白狗量減肉食', price: 500, unit: '545kgCO₂e /60Kg 高蛋白', description: '用高蛋白飼料代替傳統肉食，滿足寵物營養需求，同時減少對肉類資源嘅依賴' }
     }
 };
 
@@ -785,3 +785,4 @@ window.onerror = function(message, source, lineno, colno, error) {
     console.error(`Global Error: ${message} at ${source}:${lineno}:${colno}`, error);
 
 };
+
