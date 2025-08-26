@@ -52,20 +52,20 @@ const mockData = {
 
 const careItemDetails = {
     FOOD: {
-        en: { name: 'Collect Food Waste to Reduce Landfill', price: 100, unit: '/100kgCO₂e', description: 'Through recycling food waste, reduce the amount of garbage sent to landfills and alleviate environmental burden' },
-        zh: { name: '收集廚餘減少堆填', price: 100, unit: '100kgCO₂e', description: '透過回收廚餘，減少送往堆填區嘅垃圾量，減輕環境負擔' }
+        en: { name: 'Collect Food Waste to Reduce Landfill', price: 100, unit: '90kgCO₂e /100kg Waste', description: 'Through recycling food waste, reduce the amount of garbage sent to landfills and alleviate environmental burden' },
+        zh: { name: '收集廚餘減少堆填', price: 100, unit: '90kgCO₂e /100kg 廚餘', description: '透過回收廚餘，減少送往堆填區嘅垃圾量，減輕環境負擔' }
     },
     INSURANCE: {
-        en: { name: 'Food Waste to Protein Powder', price: 200, unit: '/200kgCO₂e', description: 'Transform food waste into high-value protein powder for animal feed or other purposes' },
-        zh: { name: '廚餘轉化蛋白質粉', price: 200, unit: '/00kgCO₂e', description: '全將廚餘轉化成高價值嘅蛋白質粉，用於動物飼料或其他用途' }
+        en: { name: 'Food Waste to Protein Powder', price: 200, unit: '180kgCO₂e /100kg Waste', description: 'Transform food waste into high-value protein powder for animal feed or other purposes' },
+        zh: { name: '廚餘轉化蛋白質粉', price: 200, unit: '180kgCO₂e /100kg 廚餘', description: '全將廚餘轉化成高價值嘅蛋白質粉，用於動物飼料或其他用途' }
     },
     COLLAR: {
-        en: { name: 'Zero Carbon Bio-transformation', price: 500, unit: '/500kgCO₂e', description: 'Transform food waste into high-value protein powder for animal feed or other purposes' },
-        zh: { name: '零碳排放生物轉化', price: 300, unit: '300kgCO₂e', description: '將廚餘轉化成高價值嘅蛋白質粉，用於動物飼料或其他用途' }
+        en: { name: 'Zero Carbon Bio-transformation', price: 500, unit: '459kgCO₂e /Day', description: 'Transform food waste into high-value protein powder for animal feed or other purposes' },
+        zh: { name: '零碳排放生物轉化', price: 300, unit: '459kgCO₂e /日', description: '將廚餘轉化成高價值嘅蛋白質粉，用於動物飼料或其他用途' }
     },
     ADOPTION: {
-        en: { name: 'High Protein Dog Food to Reduce Meat', price: 1000, unit: '/1000kgCO₂e', description: 'Use high-protein feed to replace traditional meat, meet pet nutritional needs while reducing dependence on meat resources' },
-        zh: { name: '高蛋白狗量減肉食', price: 500, unit: '/500kgCO₂e', description: '用高蛋白飼料代替傳統肉食，滿足寵物營養需求，同時減少對肉類資源嘅依賴' }
+        en: { name: 'High Protein Dog Food to Reduce Meat', price: 1000, unit: '545kgCO₂e /120Kg Hi-Protein', description: 'Use high-protein feed to replace traditional meat, meet pet nutritional needs while reducing dependence on meat resources' },
+        zh: { name: '高蛋白狗量減肉食', price: 500, unit: '545kgCO₂e /120Kg 高蛋白', description: '用高蛋白飼料代替傳統肉食，滿足寵物營養需求，同時減少對肉類資源嘅依賴' }
     }
 };
 
@@ -783,4 +783,5 @@ document.addEventListener('DOMContentLoaded', function() {
 // Global error handler
 window.onerror = function(message, source, lineno, colno, error) {
     console.error(`Global Error: ${message} at ${source}:${lineno}:${colno}`, error);
+
 };
